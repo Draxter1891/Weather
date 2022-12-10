@@ -47,7 +47,7 @@ const getWeather = (city) => {
 
 submit.addEventListener("click", (e) => {
     e.preventDefault()
-    getWeather(city.vakoe)
+    getWeather(city.value)
 })
 
 getWeather("Delhi")
